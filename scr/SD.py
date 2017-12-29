@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys
+import sys, os
 
 class SD:
     """
@@ -52,7 +52,7 @@ def getArguments():
     while n < len(sys.argv):
         
         if sys.argv[n] == '-t':
-            src = sys.argv[n + 1]
+            text = sys.argv[n + 1]
             n += 2
         
         elif sys.argv[n] == '-a':
