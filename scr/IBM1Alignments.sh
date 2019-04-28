@@ -40,7 +40,7 @@ for line in open(sys.argv[2]):
  trg[int(line.split()[0])] = line.split()[1]
 trg[0] = 'NULL'
 for line in open(sys.argv[3]):
- print src[int(line.split()[0])], trg[int(line.split()[1])], line.split()[2]
+ print(src[int(line.split()[0])], trg[int(line.split()[1])], line.split()[2])
 EOF
 
 rm ${prefix}/${name_1}* ${prefix}/${name_2}*

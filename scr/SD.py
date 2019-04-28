@@ -90,4 +90,4 @@ if __name__ == "__main__":
         sentence = ''
         for word in line.split():
             sentence += sd.getWord(word) + ' '
-        print sentence.strip()
+        print(sentence.strip())
