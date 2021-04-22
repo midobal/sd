@@ -68,7 +68,7 @@ def getArguments():
 
     #Check all paths.
     if not os.path.isfile(text):
-        sys.stderr.write('Error opening file ' + src + '\n')
+        sys.stderr.write('Error opening file ' + text + '\n')
         sys.exit(-1)
 
     if not os.path.isfile(alignments):
