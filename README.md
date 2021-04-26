@@ -32,3 +32,6 @@ Where:
 
 * **text_file** if the text to translate.
 * **alignments** is the file created at the alignments step (*dest_dir/alignmetns*).
+
+## Run through Docker
+Alternatively, if you want to run this software using Docker, you can have a look at this [repo](https://github.com/midobal/dockerfiles/tree/master/sd).
